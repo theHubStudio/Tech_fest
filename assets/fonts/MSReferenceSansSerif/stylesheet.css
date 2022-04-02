@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'MS Reference Sans Serif';
+    src: url('fonts/MSReferenceSansSerif/MSReferenceSansSerif-Italic.eot');
+    src: url('fonts/MSReferenceSansSerif/MSReferenceSansSerif-Italic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/MSReferenceSansSerif/MSReferenceSansSerif-Italic.woff2') format('woff2'),
+        url('fonts/MSReferenceSansSerif/MSReferenceSansSerif-Italic.woff') format('woff'),
+        url('fonts/MSReferenceSansSerif/MSReferenceSansSerif-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MS Reference Sans Serif';
+    src: url('fonts/MSReferenceSansSerif/MSReferenceSansSerif.eot');
+    src: url('fonts/MSReferenceSansSerif/MSReferenceSansSerif.eot?#iefix') format('embedded-opentype'),
+        url('fonts/MSReferenceSansSerif/MSReferenceSansSerif.woff2') format('woff2'),
+        url('fonts/MSReferenceSansSerif/MSReferenceSansSerif.woff') format('woff'),
+        url('fonts/MSReferenceSansSerif/MSReferenceSansSerif.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MS Reference Sans Serif';
+    src: url('fonts/MSReferenceSansSerif/MSReferenceSansSerif-Bold.eot');
+    src: url('fonts/MSReferenceSansSerif/MSReferenceSansSerif-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/MSReferenceSansSerif/MSReferenceSansSerif-Bold.woff2') format('woff2'),
+        url('fonts/MSReferenceSansSerif/MSReferenceSansSerif-Bold.woff') format('woff'),
+        url('fonts/MSReferenceSansSerif/MSReferenceSansSerif-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MS Reference Sans Serif';
+    src: url('fonts/MSReferenceSansSerif/MSReferenceSansSerif-BoldItalic.eot');
+    src: url('fonts/MSReferenceSansSerif/MSReferenceSansSerif-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/MSReferenceSansSerif/MSReferenceSansSerif-BoldItalic.woff2') format('woff2'),
+        url('fonts/MSReferenceSansSerif/MSReferenceSansSerif-BoldItalic.woff') format('woff'),
+        url('fonts/MSReferenceSansSerif/MSReferenceSansSerif-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MS Reference Sans Serif';
+    src: url('fonts/MSReferenceSansSerif/MSReferenceSansSerif_1.eot');
+    src: url('fonts/MSReferenceSansSerif/MSReferenceSansSerif_1.eot?#iefix') format('embedded-opentype'),
+        url('fonts/MSReferenceSansSerif/MSReferenceSansSerif_1.woff2') format('woff2'),
+        url('fonts/MSReferenceSansSerif/MSReferenceSansSerif_1.woff') format('woff'),
+        url('fonts/MSReferenceSansSerif/MSReferenceSansSerif_1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MS Reference Sans Serif';
+    src: url('fonts/MSReferenceSansSerif/MSReferenceSansSerif-Italic_1.eot');
+    src: url('fonts/MSReferenceSansSerif/MSReferenceSansSerif-Italic_1.eot?#iefix') format('embedded-opentype'),
+        url('fonts/MSReferenceSansSerif/MSReferenceSansSerif-Italic_1.woff2') format('woff2'),
+        url('fonts/MSReferenceSansSerif/MSReferenceSansSerif-Italic_1.woff') format('woff'),
+        url('fonts/MSReferenceSansSerif/MSReferenceSansSerif-Italic_1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MS Reference Sans Serif';
+    src: url('fonts/MSReferenceSansSerif/MSReferenceSansSerif-Bold_1.eot');
+    src: url('fonts/MSReferenceSansSerif/MSReferenceSansSerif-Bold_1.eot?#iefix') format('embedded-opentype'),
+        url('fonts/MSReferenceSansSerif/MSReferenceSansSerif-Bold_1.woff2') format('woff2'),
+        url('fonts/MSReferenceSansSerif/MSReferenceSansSerif-Bold_1.woff') format('woff'),
+        url('fonts/MSReferenceSansSerif/MSReferenceSansSerif-Bold_1.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MS Reference Sans Serif';
+    src: url('fonts/MSReferenceSansSerif/MSReferenceSansSerif-BoldItalic_1.eot');
+    src: url('fonts/MSReferenceSansSerif/MSReferenceSansSerif-BoldItalic_1.eot?#iefix') format('embedded-opentype'),
+        url('fonts/MSReferenceSansSerif/MSReferenceSansSerif-BoldItalic_1.woff2') format('woff2'),
+        url('fonts/MSReferenceSansSerif/MSReferenceSansSerif-BoldItalic_1.woff') format('woff'),
+        url('fonts/MSReferenceSansSerif/MSReferenceSansSerif-BoldItalic_1.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
