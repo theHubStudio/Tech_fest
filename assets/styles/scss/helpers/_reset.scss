@@ -4,6 +4,7 @@
 @mixin reset_spaces {
     padding: 0;
     margin: 0; 
+    box-sizing: border-box;
 }
 @mixin reset_outlines {
     border: 0;
@@ -17,9 +18,10 @@ h1,h2,h3,h4,h5,h6,
 p,
 ul,li,
 div,
-span{
+span,
+fieldset{
     @include reset_spaces();
-    box-sizing: border-box;
+    
    
 }
 
@@ -41,10 +43,25 @@ a{
 button,
 input,
 textarea,
-select{
+select,
+fieldset{
     @include reset_outlines();
 }
+.button{
+    box-sizing: border-box;
+    background-color: $wt;
+    font-size: 12px;
+    color: $bc;
+    text-align: center;
+    transition: 0.6s;
 
+    &:hover{
+        background-color: rgba(255, 255, 255, 0.942);
+    }
+    &:active{
+        background-color: rgba(255, 255, 255, 0.845);
+    }
+}
 .container{
     // width: calc(100% - 60px);
     // margin: 0 auto;

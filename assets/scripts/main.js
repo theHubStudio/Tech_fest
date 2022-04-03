@@ -14,3 +14,23 @@ showOverlay.forEach((showOverlay) => {
 // };
 // Overlay(showOverlay, overlay);
 // Overlay(hideOverlay, overlay);
+
+
+
+
+let addFormElement = document.getElementById('add_form_elem');
+let formElement = document.getElementById('form_elem');
+let formLabel = document.getElementById('form_label');
+let formElementCounter = 2;
+addFormElement.addEventListener('click', ()=>{
+    
+    if(formElementCounter == 5){
+        alert(`Количество участников должно не превышть ${formElementCounter}`);
+    }
+    else{
+        let newFormElement = formElement.cloneNode(true);
+        formElementCounter++;
+        let form = addFormElement.parentNode;
+        form.insertBefore(newFormElement, addFormElement); 
+    }
+})
