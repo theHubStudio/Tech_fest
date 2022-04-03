@@ -1,9 +1,9 @@
 .head{
-    padding: 50px 0px;
+    padding: 50px 0;
     &__wrapper{
         // width: calc(100% - 50px);
         margin: 0 auto;
-        width: 214px;
+        // width: 214px;
     }
     
     &__block-title{
@@ -13,6 +13,8 @@
     &__title{
         font-family: "Arial Black", Helvetica, sans-serif;;
         margin-bottom: 6px;
+        font-size: 30px;
+        // font-size: calc(3vw + 1.1em);
     }
     &__title_position_left{
         margin-right: 60px;
@@ -22,11 +24,9 @@
     }
     &__link{
         display: block;
-        // max-width: calc(50% + 13vw);
-        width: 144px;
+        width: 210px;
         margin: 0 auto;
-        padding: 10px 0;
-      
+        padding: 15px 0;
         border-radius: 20px;
     }
 

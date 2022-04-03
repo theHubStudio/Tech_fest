@@ -254,6 +254,10 @@
   font-style: normal;
   font-display: swap;
 }
+:root {
+  font-size: calc(1vw + .6em);
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -317,6 +321,9 @@ fieldset {
 }
 
 .container {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   padding: 0 30px;
 }
 
@@ -393,11 +400,10 @@ fieldset {
 }
 
 .head {
-  padding: 50px 0px;
+  padding: 50px 0;
 }
 .head__wrapper {
   margin: 0 auto;
-  width: 214px;
 }
 .head__block-title {
   text-align: center;
@@ -406,6 +412,7 @@ fieldset {
 .head__title {
   font-family: "Arial Black", Helvetica, sans-serif;
   margin-bottom: 6px;
+  font-size: 30px;
 }
 .head__title_position_left {
   margin-right: 60px;
@@ -415,9 +422,9 @@ fieldset {
 }
 .head__link {
   display: block;
-  width: 144px;
+  width: 210px;
   margin: 0 auto;
-  padding: 10px 0;
+  padding: 15px 0;
   border-radius: 20px;
 }
 .head__image {
