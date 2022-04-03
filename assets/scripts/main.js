@@ -23,7 +23,6 @@ let formElement = document.getElementById('form_elem');
 let formLabel = document.getElementById('form_label');
 let formElementCounter = 2;
 addFormElement.addEventListener('click', ()=>{
-    
     if(formElementCounter == 5){
         alert(`Количество участников должно не превышть ${formElementCounter}`);
     }

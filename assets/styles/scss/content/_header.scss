@@ -88,6 +88,7 @@
 
         &__links{
             font-size: 25px; 
+            margin-bottom: 50px;
             // letter-spacing: 4px;
         }
         
@@ -96,5 +97,49 @@
     
 }
 
+
+@media (min-width: 768px) {
+    .header{
+
+        &__logo_size{
+            width: 145px;
+            height: 30px;
+        }
+
+        &__burger-button{
+            font-size: 24px;
+        }
+
+        &__close-button{
+            font-size: 56px;
+        }   
+    } 
+}
+
+@media (min-width: 992px) {
+    .header{
+        &__logo_size{
+            width: 165px;
+            height: 35px;
+        }
+
+        &__burger-button{
+            font-size: 28px;
+        }
+        
+        &__close-button{
+            font-size: 60px;
+        }  
+        &__links{
+            font-size: 32px;
+            letter-spacing: 4px;
+            margin-bottom: 60px;
+        }
+             
+
+
+    }
+    
+}
 
 

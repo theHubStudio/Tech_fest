@@ -103,3 +103,39 @@
     }
 
 }
+
+@media (min-width: 992px) {
+    .registration{
+        &__title{
+            font-size: 42px;
+        }
+
+    }
+
+    .form{
+        width: 480px; 
+
+        &__fieldset{
+            margin-bottom: 18px;
+        }
+        
+        &__label{
+            font-size: 20px;
+        }
+        &__item{
+            padding: 16px 18px;
+            font-size: 16px;
+            
+            &::placeholder{
+                font-size: 14px;
+                color:#504D4D;
+            }
+        }
+
+        &__add-teammate{
+            margin: 24px 0 32px 0;
+            font-size: 24px;
+        }
+    }
+
+}

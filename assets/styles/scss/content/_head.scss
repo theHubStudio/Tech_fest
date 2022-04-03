@@ -70,6 +70,37 @@
         }
         &__title{
             font-size: 58px;
+            margin-bottom: 12px;
+        }
+        
+        &__image{
+            margin-top: 70px;
+            
+        }
+         
+    } 
+}
+
+@media (min-width: 992px) {
+    .head{
+
+        &__block-title{
+            margin-bottom: 65px;
+        }
+        &__title{
+            font-size: 70px;
+            margin-bottom: 12px;
+        }
+        &__title_position_left{
+            margin-right: 180px;
+        }
+        &__title_position_right{
+            margin-left: 180px;
+        }
+
+        &__link{
+            width: 380px;
+            padding: 21px 0;
         }
         
         &__image{

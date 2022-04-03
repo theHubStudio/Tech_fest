@@ -415,6 +415,36 @@ fieldset {
   }
   .header__links {
     font-size: 25px;
+    margin-bottom: 50px;
+  }
+}
+@media (min-width: 768px) {
+  .header__logo_size {
+    width: 145px;
+    height: 30px;
+  }
+  .header__burger-button {
+    font-size: 24px;
+  }
+  .header__close-button {
+    font-size: 56px;
+  }
+}
+@media (min-width: 992px) {
+  .header__logo_size {
+    width: 165px;
+    height: 35px;
+  }
+  .header__burger-button {
+    font-size: 28px;
+  }
+  .header__close-button {
+    font-size: 60px;
+  }
+  .header__links {
+    font-size: 32px;
+    letter-spacing: 4px;
+    margin-bottom: 60px;
   }
 }
 .head {
@@ -477,6 +507,29 @@ fieldset {
   }
   .head__title {
     font-size: 58px;
+    margin-bottom: 12px;
+  }
+  .head__image {
+    margin-top: 70px;
+  }
+}
+@media (min-width: 992px) {
+  .head__block-title {
+    margin-bottom: 65px;
+  }
+  .head__title {
+    font-size: 70px;
+    margin-bottom: 12px;
+  }
+  .head__title_position_left {
+    margin-right: 180px;
+  }
+  .head__title_position_right {
+    margin-left: 180px;
+  }
+  .head__link {
+    width: 380px;
+    padding: 21px 0;
   }
   .head__image {
     margin-top: 70px;
@@ -598,6 +651,45 @@ fieldset {
   }
   .form__add-teammate {
     font-size: 18px;
+  }
+}
+@media (min-width: 992px) {
+  .registration__title {
+    font-size: 42px;
+  }
+
+  .form {
+    width: 480px;
+  }
+  .form__fieldset {
+    margin-bottom: 18px;
+  }
+  .form__label {
+    font-size: 20px;
+  }
+  .form__item {
+    padding: 16px 18px;
+    font-size: 16px;
+  }
+  .form__item::-webkit-input-placeholder {
+    font-size: 14px;
+    color: #504D4D;
+  }
+  .form__item:-ms-input-placeholder {
+    font-size: 14px;
+    color: #504D4D;
+  }
+  .form__item::-ms-input-placeholder {
+    font-size: 14px;
+    color: #504D4D;
+  }
+  .form__item::placeholder {
+    font-size: 14px;
+    color: #504D4D;
+  }
+  .form__add-teammate {
+    margin: 24px 0 32px 0;
+    font-size: 24px;
   }
 }
 
