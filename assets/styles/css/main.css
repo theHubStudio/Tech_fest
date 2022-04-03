@@ -346,7 +346,7 @@ fieldset {
 .header__wrapper_desktop-laptop-version {
   display: none;
 }
-.header__logo_size_sm {
+.header__logo_size {
   width: 106px;
   height: 23px;
 }
@@ -399,6 +399,24 @@ fieldset {
           user-select: none;
 }
 
+@media (min-width: 576px) {
+  .header {
+    padding: 18px 0;
+  }
+  .header__logo_size {
+    width: 130px;
+    height: 25px;
+  }
+  .header__burger-button {
+    font-size: 22px;
+  }
+  .header__close-button {
+    font-size: 50px;
+  }
+  .header__links {
+    font-size: 25px;
+  }
+}
 .head {
   padding: 50px 0;
 }
@@ -433,6 +451,23 @@ fieldset {
   height: auto;
 }
 
+@media (min-width: 576px) {
+  .head__title {
+    font-size: 42px;
+  }
+  .head__title_position_left {
+    margin-right: 120px;
+  }
+  .head__title_position_right {
+    margin-left: 120px;
+  }
+  .head__link {
+    width: 316px;
+    padding: 18px 0;
+    border-radius: 50px;
+    font-size: 20px;
+  }
+}
 .registration {
   padding: 34px 0;
 }

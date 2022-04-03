@@ -14,7 +14,7 @@
     }
    
 
-    &__logo_size_sm{
+    &__logo_size{
         width: 106px;
         height: 23px;
     }
@@ -36,8 +36,6 @@
         right: 0;
         background-color: $bc;
         display: none;
-    
-       
     }
 
     &__navigation{
@@ -53,8 +51,6 @@
         transform: rotate(45deg);
         cursor: pointer;
     }
-
-
     &__links{
         display: block;
         font-size: 20px;
@@ -64,10 +60,6 @@
     }
 }
 
-
-
-
-
 .overlay_show{
     display: block;
 }
@@ -76,5 +68,32 @@
     user-select: none;
 }
 
+
+@media (min-width: 576px) {
+    .header{
+        padding: 18px 0;
+
+        &__logo_size{
+            width: 130px;
+            height: 25px;
+        }
+
+        &__burger-button{
+            font-size: 22px;
+        }
+
+        &__close-button{
+            font-size: 50px;
+        }
+
+        &__links{
+            font-size: 25px; 
+            // letter-spacing: 4px;
+        }
+        
+    }
+
+    
+}
 
 
