@@ -4,7 +4,7 @@
     
     &__wrapper{
         justify-content: space-between;
-        align-content: center;
+        align-items: center;
     }
     &__wrapper_mobile-tablet-version{
         display: flex;
@@ -56,6 +56,7 @@
         font-size: 20px;
         letter-spacing: 2px;
         margin-bottom: 30px;
+        font-family: $msref;
         
     }
 }
@@ -117,7 +118,9 @@
 }
 
 @media (min-width: 992px) {
+    
     .header{
+        padding: 24px 0;
         &__logo_size{
             width: 165px;
             height: 35px;
@@ -129,6 +132,7 @@
         
         &__close-button{
             font-size: 60px;
+            margin-top: 6px;
         }  
         &__links{
             font-size: 32px;
@@ -142,4 +146,35 @@
     
 }
 
+@media (min-width: 1200px) {
+    .header{
+        &__wrapper_mobile-tablet-version{
+            display: none;
+        }
+        &__wrapper_desktop-laptop-version{
+            display: flex;
+        }
+        &__logo_size{
+            width: 170px;
+            height: 32px;
+        }
 
+        &__list{
+            display: flex;
+        }
+
+        &__links{
+            font-size: 14px;
+            margin: 0 0 0 50px;
+            letter-spacing: 2px;
+
+            &:hover{
+                color: rgba(255, 255, 255, 0.832);
+            }
+            &:active{
+                color: rgba(255, 255, 255, 0.682);
+            }
+        }
+    }
+    
+}

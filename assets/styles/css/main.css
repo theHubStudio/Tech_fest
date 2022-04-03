@@ -327,6 +327,18 @@ fieldset {
   padding: 0 30px;
 }
 
+@media (min-width: 992px) {
+  .container {
+    padding: 0 60px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    padding: 0;
+    width: 1140px;
+    margin: 0 auto;
+  }
+}
 .header {
   padding: 12px 0;
   background-color: #000;
@@ -335,8 +347,9 @@ fieldset {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .header__wrapper_mobile-tablet-version {
   display: -webkit-box;
@@ -386,6 +399,7 @@ fieldset {
   font-size: 20px;
   letter-spacing: 2px;
   margin-bottom: 30px;
+  font-family: "MS Reference Sans Serif";
 }
 
 .overlay_show {
@@ -431,6 +445,9 @@ fieldset {
   }
 }
 @media (min-width: 992px) {
+  .header {
+    padding: 24px 0;
+  }
   .header__logo_size {
     width: 165px;
     height: 35px;
@@ -440,6 +457,7 @@ fieldset {
   }
   .header__close-button {
     font-size: 60px;
+    margin-top: 6px;
   }
   .header__links {
     font-size: 32px;
@@ -447,11 +465,38 @@ fieldset {
     margin-bottom: 60px;
   }
 }
+@media (min-width: 1200px) {
+  .header__wrapper_mobile-tablet-version {
+    display: none;
+  }
+  .header__wrapper_desktop-laptop-version {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .header__logo_size {
+    width: 170px;
+    height: 32px;
+  }
+  .header__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .header__links {
+    font-size: 14px;
+    margin: 0 0 0 50px;
+    letter-spacing: 2px;
+  }
+  .header__links:hover {
+    color: rgba(255, 255, 255, 0.832);
+  }
+  .header__links:active {
+    color: rgba(255, 255, 255, 0.682);
+  }
+}
 .head {
   padding: 50px 0;
-}
-.head__wrapper {
-  margin: 0 auto;
 }
 .head__block-title {
   text-align: center;
@@ -533,6 +578,38 @@ fieldset {
   }
   .head__image {
     margin-top: 70px;
+  }
+}
+@media (min-width: 1200px) {
+  .head__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .head__block-title {
+    margin-bottom: 64px;
+  }
+  .head__title {
+    font-size: 52px;
+    margin-bottom: 16px;
+  }
+  .head__title_position_left {
+    margin-right: 120px;
+  }
+  .head__title_position_right {
+    margin-left: 120px;
+  }
+  .head__link {
+    width: 280px;
+    padding: 21px 0;
+  }
+  .head__image {
+    margin-top: -5px;
+    width: 640px;
+    height: 410px;
   }
 }
 .registration {

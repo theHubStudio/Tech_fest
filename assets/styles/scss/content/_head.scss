@@ -1,10 +1,6 @@
 .head{
     padding: 50px 0;
-    &__wrapper{
-        // width: calc(100% - 50px);
-        margin: 0 auto;
-        // width: 214px;
-    }
+   
     
     &__block-title{
         text-align: center;
@@ -28,6 +24,7 @@
         margin: 0 auto;
         padding: 15px 0;
         border-radius: 20px;
+       
     }
 
     &__image{
@@ -105,6 +102,43 @@
         
         &__image{
             margin-top: 70px;
+            
+        }
+         
+    } 
+}
+
+@media (min-width: 1200px) {
+    .head{
+        &__wrapper{
+            display: flex;
+            justify-content: space-between;
+            
+        }
+
+        &__block-title{
+            margin-bottom: 64px;
+        }
+        &__title{
+            font-size: 52px;
+            margin-bottom: 16px;
+        }
+        &__title_position_left{
+            margin-right: 120px;
+        }
+        &__title_position_right{
+            margin-left: 120px;
+        }
+
+        &__link{
+            width: 280px;
+            padding: 21px 0;
+        }
+        
+        &__image{
+            margin-top: -5px;
+            width: 640px;
+            height: 410px;
             
         }
          
