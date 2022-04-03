@@ -1,0 +1,62 @@
+.header{
+    padding: 12px 0;
+    background-color: $bc;
+
+    &__wrapper{
+        justify-content: space-between;
+        align-content: center;
+    }
+    &__wrapper_desktop-laptop-version{
+        display: none;
+    }
+
+    &__logo_size_sm{
+        width: 87px;
+        height: 20px;
+    }
+    &__burger-button{
+        margin-top: 2px;
+        font-size: 18px;
+        font-weight: bold;
+        transform: rotate(90deg);
+        cursor: pointer;
+    }
+}
+
+
+.overlay{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: $bc;
+    display: none;
+
+    &__navigation{
+        // padding-top: 15px;
+        text-align: right;
+    }
+
+    &__close-button{
+        margin-bottom: 33px;
+        display: inline-block;
+        font-size: 40px;
+        transform: rotate(45deg);
+        cursor: pointer;
+    }
+
+    &__links{
+        display: block;
+        letter-spacing: 2px;
+        margin-bottom: 30px;
+    }
+}
+.overlay_show{
+    display: block;
+}
+
+.header,.overlay{
+    user-select: none;
+}
