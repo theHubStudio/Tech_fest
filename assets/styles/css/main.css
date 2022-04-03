@@ -254,10 +254,6 @@
   font-style: normal;
   font-display: swap;
 }
-:root {
-  font-size: calc(1vw + .6em);
-}
-
 html {
   scroll-behavior: smooth;
 }
@@ -301,12 +297,6 @@ select {
   padding: 0 30px;
 }
 
-.wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .header {
   padding: 12px 0;
   background-color: #000;
@@ -317,6 +307,11 @@ select {
           justify-content: space-between;
   -ms-flex-line-pack: center;
       align-content: center;
+}
+.header__wrapper_mobile-tablet-version {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 .header__wrapper_desktop-laptop-version {
   display: none;
@@ -333,8 +328,7 @@ select {
           transform: rotate(90deg);
   cursor: pointer;
 }
-
-.overlay {
+.header__overlay {
   width: 100%;
   position: fixed;
   top: 0;
@@ -344,18 +338,20 @@ select {
   background-color: #000;
   display: none;
 }
-.overlay__navigation {
+.header__navigation {
   text-align: right;
 }
-.overlay__close-button {
+.header__close-button {
   display: inline-block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin-bottom: 33px;
   font-size: 40px;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
   cursor: pointer;
 }
-.overlay__links {
+.header__links {
   display: block;
   font-size: 20px;
   letter-spacing: 2px;
@@ -371,6 +367,46 @@ select {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
+}
+
+.head {
+  padding: 50px 0px;
+}
+.head__wrapper {
+  width: 214px;
+  margin: 0 auto;
+}
+.head__block-title {
+  margin-bottom: 26px;
+}
+.head__title {
+  font-family: "Arial Black", Helvetica, sans-serif;
+  margin-bottom: 6px;
+}
+.head__title_position_right {
+  margin-left: 60px;
+}
+.head__link {
+  display: block;
+  margin: 0 36px;
+  padding: 10px 25px;
+  font-size: 12px;
+  border-radius: 20px;
+  background-color: #fff;
+  color: #000;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+.head__link:hover {
+  background-color: rgba(255, 255, 255, 0.942);
+}
+.head__link:active {
+  background-color: rgba(255, 255, 255, 0.845);
+}
+.head__image {
+  margin: 50px 20px 0 20px;
+  width: 171px;
+  height: 121px;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,14 +1,18 @@
 .header{
     padding: 12px 0;
     background-color: $bc;
-
+    
     &__wrapper{
         justify-content: space-between;
         align-content: center;
     }
+    &__wrapper_mobile-tablet-version{
+        display: flex;
+    }
     &__wrapper_desktop-laptop-version{
         display: none;
     }
+   
 
     &__logo_size_sm{
         width: 106px;
@@ -20,20 +24,21 @@
         font-weight: bold;
         transform: rotate(90deg);
         cursor: pointer;
-        
+    
     }
-}
 
-
-.overlay{
-    width: 100%;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: $bc;
-    display: none;
+    &__overlay{
+        width: 100%;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: $bc;
+        display: none;
+    
+       
+    }
 
     &__navigation{
         // padding-top: 15px;
@@ -42,11 +47,13 @@
 
     &__close-button{
         display: inline-block;
+        box-sizing: border-box;
         margin-bottom: 33px;
         font-size: 40px;
         transform: rotate(45deg);
         cursor: pointer;
     }
+
 
     &__links{
         display: block;
@@ -56,6 +63,11 @@
         
     }
 }
+
+
+
+
+
 .overlay_show{
     display: block;
 }
@@ -63,3 +75,6 @@
 .header,.overlay{
     user-select: none;
 }
+
+
+
