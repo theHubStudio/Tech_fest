@@ -9,7 +9,7 @@
 }
 
 .form{
-    width: 209px;
+    width: 220px;
     margin: 0 auto;
 
     &__fieldset{
@@ -36,8 +36,69 @@
         margin: 18px 0 28px 0;
         font-size: 12px;
 
-        &:hover{
+        &:active{
             color: rgba(255, 255, 255, 0.758);
+        }
+    }
+
+}
+
+@media (min-width: 576px) {
+    .registration{
+        &__title{
+            font-size: 25px;
+        }
+
+    }
+
+    .form{
+        width: 280px; 
+        
+        &__label{
+            
+            font-size: 14px;
+        }
+        &__item{
+            
+            &::placeholder{
+                font-size: 10px;
+                color:#504D4D;
+            }
+        }
+
+        &__add-teammate{
+            font-size: 14px;
+        }
+    }
+
+}
+
+@media (min-width: 768px) {
+    .registration{
+        &__title{
+            font-size: 35px;
+        }
+
+    }
+
+    .form{
+        width: 380px; 
+        
+        &__label{
+            font-size: 16px;
+        }
+        &__item{
+            padding: 12px 16px;
+            font-size: 14px;
+            
+            &::placeholder{
+                font-size: 12px;
+                color:#504D4D;
+            }
+        }
+
+        &__add-teammate{
+            font-size: 18px;
         }
     }
 

@@ -39,8 +39,9 @@
 
 @media (min-width: 576px) {
     .head{
+        padding: 60px 0;
         &__title{
-            font-size: 42px;
+            font-size: 45px;
         }
         &__title_position_left{
             margin-right: 120px;
@@ -56,5 +57,25 @@
         }
     
 
+    } 
+}
+
+
+@media (min-width: 768px) {
+    .head{
+
+        &__block-title{
+            
+            margin-bottom: 42px;
+        }
+        &__title{
+            font-size: 58px;
+        }
+        
+        &__image{
+            margin-top: 70px;
+            
+        }
+         
     } 
 }
