@@ -11,15 +11,16 @@
     }
 
     &__logo_size_sm{
-        width: 87px;
-        height: 20px;
+        width: 106px;
+        height: 23px;
     }
     &__burger-button{
         margin-top: 2px;
-        font-size: 18px;
+        font-size: 20px;
         font-weight: bold;
         transform: rotate(90deg);
         cursor: pointer;
+        
     }
 }
 
@@ -40,8 +41,8 @@
     }
 
     &__close-button{
-        margin-bottom: 33px;
         display: inline-block;
+        margin-bottom: 33px;
         font-size: 40px;
         transform: rotate(45deg);
         cursor: pointer;
@@ -49,8 +50,10 @@
 
     &__links{
         display: block;
+        font-size: 20px;
         letter-spacing: 2px;
         margin-bottom: 30px;
+        
     }
 }
 .overlay_show{

@@ -258,6 +258,10 @@
   font-size: calc(1vw + .6em);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body,
 h1, h2, h3, h4, h5, h6,
 p,
@@ -318,12 +322,12 @@ select {
   display: none;
 }
 .header__logo_size_sm {
-  width: 87px;
-  height: 20px;
+  width: 106px;
+  height: 23px;
 }
 .header__burger-button {
   margin-top: 2px;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
@@ -344,8 +348,8 @@ select {
   text-align: right;
 }
 .overlay__close-button {
-  margin-bottom: 33px;
   display: inline-block;
+  margin-bottom: 33px;
   font-size: 40px;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
@@ -353,6 +357,7 @@ select {
 }
 .overlay__links {
   display: block;
+  font-size: 20px;
   letter-spacing: 2px;
   margin-bottom: 30px;
 }
