@@ -405,6 +405,7 @@ fieldset {
 }
 .header__links {
   display: block;
+  font-size: 20px;
   letter-spacing: 2px;
   margin-bottom: 26px;
   font-family: "MS Reference Sans Serif";
@@ -435,9 +436,6 @@ fieldset {
   .header__close-button {
     font-size: 50px;
   }
-  .header__links {
-    font-size: 20px;
-  }
 }
 @media (min-width: 768px) {
   .header__logo_size {
@@ -449,7 +447,7 @@ fieldset {
     font-size: 24px;
   }
   .header__close-button {
-    font-size: 42px;
+    font-size: 55px;
   }
   .header__links {
     font-size: 25px;
@@ -885,7 +883,7 @@ fieldset {
 }
 .error {
   text-align: center;
-  padding: 120px 0;
+  padding-top: 120px;
 }
 .error__title {
   font-size: 64px;
@@ -908,8 +906,7 @@ fieldset {
 }
 @media (min-width: 768px) {
   .error {
-    text-align: center;
-    padding: 160px 0;
+    padding-top: 180px;
   }
   .error__title {
     font-size: 110px;
@@ -919,10 +916,6 @@ fieldset {
   }
 }
 @media (min-width: 992px) {
-  .error {
-    text-align: center;
-    padding: 120px 0;
-  }
   .error__title {
     font-size: 150px;
   }
