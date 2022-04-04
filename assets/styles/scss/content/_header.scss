@@ -73,25 +73,20 @@
 @media (min-width: 576px) {
     .header{
         padding: 18px 0;
-
         &__logo_size{
             width: 140px;
             height: 40px;
         }
-
         &__burger-button{
             font-size: 22px;
         }
-
         &__close-button{
             font-size: 50px;
         }
+        &__links{
+            margin-bottom: 36px;
+        }
 
-        // &__links{
-        //     font-size: 20px; 
-        //     // margin-bottom: 36px;
-        //     // letter-spacing: 4px;
-        // }
         
     }
 
@@ -116,7 +111,6 @@
         &__links{
             font-size: 25px; 
             margin-bottom: 32px;
-            // letter-spacing: 4px;
         }
     } 
 }
@@ -133,7 +127,6 @@
         &__burger-button{
             font-size: 28px;
         }
-        
         &__close-button{
             font-size: 60px;
             margin-top: 6px;
@@ -143,9 +136,7 @@
             letter-spacing: 4px;
             margin-bottom: 42px;
         }
-             
-
-
+            
     }
     
 }

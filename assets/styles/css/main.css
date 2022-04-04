@@ -436,6 +436,9 @@ fieldset {
   .header__close-button {
     font-size: 50px;
   }
+  .header__links {
+    margin-bottom: 36px;
+  }
 }
 @media (min-width: 768px) {
   .header__logo_size {
