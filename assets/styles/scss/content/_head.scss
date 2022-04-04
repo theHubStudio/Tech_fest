@@ -145,3 +145,38 @@
          
     } 
 }
+
+
+@media (min-width: 1400px) {
+    .head{
+        padding: 60px 0;
+        
+
+        &__block-title{
+            margin-bottom: 64px;
+        }
+        &__title{
+            font-size: 70px;
+            margin-bottom: 16px;
+        }
+        &__title_position_left{
+            margin-right: 140px;
+        }
+        &__title_position_right{
+            margin-left: 140px;
+        }
+
+        &__link{
+            width: 280px;
+            padding: 21px 0;
+        }
+        
+        &__image{
+            margin-top: -5px;
+            width: 716px;
+            height: 506px;
+            
+        }
+         
+    } 
+}

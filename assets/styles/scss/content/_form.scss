@@ -184,9 +184,27 @@
             display: flex;
         }
         &__submit{
-            
+            cursor: pointer;
             margin: 0 auto;
         }
+    }
+
+}
+
+
+@media (min-width: 1400px){
+   
+
+    .form{
+       
+        &__fieldset{
+            margin: 0 60px 25px 60px;
+        }
+        &__item{
+            width: 320px;
+        }
+       
+        
     }
 
 }

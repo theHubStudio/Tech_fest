@@ -339,6 +339,11 @@ fieldset {
     margin: 0 auto;
   }
 }
+@media (min-width: 1400px) {
+  .container {
+    width: 1320px;
+  }
+}
 .header {
   padding: 12px 0;
   background-color: #000;
@@ -429,7 +434,7 @@ fieldset {
   }
   .header__links {
     font-size: 25px;
-    margin-bottom: 50px;
+    margin-bottom: 36px;
   }
 }
 @media (min-width: 768px) {
@@ -441,7 +446,7 @@ fieldset {
     font-size: 24px;
   }
   .header__close-button {
-    font-size: 56px;
+    font-size: 42px;
   }
 }
 @media (min-width: 992px) {
@@ -462,7 +467,7 @@ fieldset {
   .header__links {
     font-size: 32px;
     letter-spacing: 4px;
-    margin-bottom: 60px;
+    margin-bottom: 45px;
   }
 }
 @media (min-width: 1200px) {
@@ -613,6 +618,33 @@ fieldset {
     margin-top: -5px;
     width: 640px;
     height: 410px;
+  }
+}
+@media (min-width: 1400px) {
+  .head {
+    padding: 60px 0;
+  }
+  .head__block-title {
+    margin-bottom: 64px;
+  }
+  .head__title {
+    font-size: 70px;
+    margin-bottom: 16px;
+  }
+  .head__title_position_left {
+    margin-right: 140px;
+  }
+  .head__title_position_right {
+    margin-left: 140px;
+  }
+  .head__link {
+    width: 280px;
+    padding: 21px 0;
+  }
+  .head__image {
+    margin-top: -5px;
+    width: 716px;
+    height: 506px;
   }
 }
 .registration {
@@ -836,7 +868,16 @@ fieldset {
     display: flex;
   }
   .form__submit {
+    cursor: pointer;
     margin: 0 auto;
+  }
+}
+@media (min-width: 1400px) {
+  .form__fieldset {
+    margin: 0 60px 25px 60px;
+  }
+  .form__item {
+    width: 320px;
   }
 }
 
