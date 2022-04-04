@@ -33,3 +33,27 @@ addFormElement.addEventListener('click', ()=>{
         form.insertBefore(newFormElement, addFormElement); 
     }
 })
+
+
+
+//ajax for registration form
+// function sendRequest(){
+
+    
+//     let form = document.getElementById('');
+//     let formData = new FormData(form);
+//     $.ajax({
+//         type: "POST",
+//         url: '',
+//         data: formData,
+//         dataType: 'html',
+//         processData: false,
+//         contentType: false,
+//         success: function(){
+            
+//         },
+//         erorr: function(){
+//             alert('POST error');
+//         }
+//     })    
+// }

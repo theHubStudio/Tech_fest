@@ -15,11 +15,11 @@
    
 
     &__logo_size{
-        width: 106px;
-        height: 23px;
+        width: 120px;
+        height: 34px;
     }
     &__burger-button{
-        margin-top: 2px;
+        margin-top: -7px;
         font-size: 20px;
         font-weight: bold;
         transform: rotate(90deg);
@@ -75,8 +75,8 @@
         padding: 18px 0;
 
         &__logo_size{
-            width: 130px;
-            height: 25px;
+            width: 140px;
+            height: 40px;
         }
 
         &__burger-button{
@@ -103,14 +103,13 @@
     .header{
 
         &__logo_size{
-            width: 145px;
-            height: 30px;
+            width: 180px;
+            height: 50px;
         }
-
         &__burger-button{
+            margin-top: -14px;
             font-size: 24px;
         }
-
         &__close-button{
             font-size: 42px;
         }   
@@ -121,10 +120,10 @@
     
     .header{
         padding: 24px 0;
-        &__logo_size{
-            width: 165px;
-            height: 35px;
-        }
+        // &__logo_size{
+        //     width: 165px;
+        //     height: 35px;
+        // }
 
         &__burger-button{
             font-size: 28px;
@@ -155,8 +154,8 @@
             display: flex;
         }
         &__logo_size{
-            width: 170px;
-            height: 32px;
+            width: 250px;
+            height: 60px;
         }
 
         &__list{
