@@ -1,6 +1,6 @@
 .error{
     text-align: center;
-    padding-top: 120px;
+    padding-top: 160px;
     &__title{
         font-size: 64px;
     }
@@ -11,8 +11,6 @@
 
 @media (min-width: 576px) {
     .error{
-        text-align: center;
-        padding: 120px 0;
         &__title{
             font-size: 92px;
         }
@@ -49,7 +47,22 @@
         }
         &__subtitle{
             font-size: 60px;
-            margin-bottom: 50px;
+            
+        }
+    }
+    
+    
+}
+
+@media (min-width: 1200px) {
+    .error{
+        padding-top: 200px;
+        &__title{
+            font-size: 180px;
+        }
+        &__subtitle{
+            font-size: 80px;
+           
         }
     }
     

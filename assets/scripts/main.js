@@ -38,20 +38,16 @@ addFormElement.addEventListener('click', ()=>{
 
 //ajax for registration form
 // function sendRequest(){
-
-    
-//     let form = document.getElementById('');
+//     let form = document.getElementById('form');
 //     let formData = new FormData(form);
 //     $.ajax({
 //         type: "POST",
-//         url: '',
+//         url: 'куда надо отправить',
 //         data: formData,
 //         dataType: 'html',
 //         processData: false,
 //         contentType: false,
-//         success: function(){
-            
-//         },
+//         success: function(){сюда можно положить алерт или создать блок с сообщением об отправлении},
 //         erorr: function(){
 //             alert('POST error');
 //         }

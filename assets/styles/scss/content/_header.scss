@@ -57,6 +57,7 @@
         letter-spacing: 2px;
         margin-bottom: 26px;
         font-family: $msref;
+       
         
     }
 }
@@ -162,6 +163,7 @@
             font-size: 14px;
             margin: 0 0 0 50px;
             letter-spacing: 2px;
+            transition: .6s;
 
             &:hover{
                 color: rgba(255, 255, 255, 0.832);
@@ -173,3 +175,34 @@
     }
     
 }
+
+
+@media (min-width: 1400px) {
+    .header{
+       
+        &__logo_size{
+            width: 280px;
+            height: 65px;
+        }
+
+        &__list{
+            display: flex;
+        }
+
+        &__links{
+            font-size: 16px;
+            margin: 0 0 0 60px;
+            letter-spacing: 2px;
+            transition: .6s;
+
+            &:hover{
+                color: rgba(255, 255, 255, 0.832);
+            }
+            &:active{
+                color: rgba(255, 255, 255, 0.682);
+            }
+        }
+    }
+    
+}
+

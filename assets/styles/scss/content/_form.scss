@@ -193,12 +193,18 @@
 
 
 @media (min-width: 1400px){
-   
+    .registration{
+        padding: 50px 0;
+        &__title{
+            margin-bottom: 56px;
+        }
+       
+    
+    }
 
     .form{
-       
         &__fieldset{
-            margin: 0 60px 25px 60px;
+            margin: 0 60px 36px 60px;
         }
         &__item{
             width: 320px;
@@ -207,4 +213,11 @@
         
     }
 
+}
+
+@media (min-width: 1600px) {
+    .registration{
+        padding: 100px 0;
+         
+    } 
 }

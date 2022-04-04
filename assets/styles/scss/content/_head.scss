@@ -173,10 +173,21 @@
         
         &__image{
             margin-top: -5px;
-            width: 716px;
-            height: 506px;
+            width: 700px;
+            height: 480px;
             
         }
+         
+    } 
+}
+
+
+
+
+
+@media (min-width: 1600px) {
+    .head{
+        padding: 100px 0;
          
     } 
 }
