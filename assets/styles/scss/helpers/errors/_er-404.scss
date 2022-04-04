@@ -1,0 +1,58 @@
+.error{
+    text-align: center;
+    padding: 120px 0;
+    &__title{
+        font-size: 64px;
+    }
+    &__subtitle{
+        font-size: 34px;
+    }
+}
+
+@media (min-width: 576px) {
+    .error{
+        text-align: center;
+        padding: 120px 0;
+        &__title{
+            font-size: 92px;
+        }
+        &__subtitle{
+            font-size: 45px;
+            
+        }
+    }
+    
+    
+}
+
+@media (min-width: 768px) {
+    .error{
+        text-align: center;
+        padding: 160px 0;
+        &__title{
+            font-size: 110px;
+        }
+        &__subtitle{
+            font-size: 56px;
+            
+        }
+    }
+    
+    
+}
+
+@media (min-width: 992px) {
+    .error{
+        text-align: center;
+        padding: 120px 0;
+        &__title{
+            font-size: 150px;
+        }
+        &__subtitle{
+            font-size: 60px;
+            margin-bottom: 50px;
+        }
+    }
+    
+    
+}

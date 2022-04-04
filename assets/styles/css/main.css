@@ -883,5 +883,53 @@ fieldset {
     width: 320px;
   }
 }
+.error {
+  text-align: center;
+  padding: 120px 0;
+}
+.error__title {
+  font-size: 64px;
+}
+.error__subtitle {
+  font-size: 34px;
+}
+
+@media (min-width: 576px) {
+  .error {
+    text-align: center;
+    padding: 120px 0;
+  }
+  .error__title {
+    font-size: 92px;
+  }
+  .error__subtitle {
+    font-size: 45px;
+  }
+}
+@media (min-width: 768px) {
+  .error {
+    text-align: center;
+    padding: 160px 0;
+  }
+  .error__title {
+    font-size: 110px;
+  }
+  .error__subtitle {
+    font-size: 56px;
+  }
+}
+@media (min-width: 992px) {
+  .error {
+    text-align: center;
+    padding: 120px 0;
+  }
+  .error__title {
+    font-size: 150px;
+  }
+  .error__subtitle {
+    font-size: 60px;
+    margin-bottom: 50px;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */
