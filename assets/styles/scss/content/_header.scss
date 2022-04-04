@@ -53,9 +53,9 @@
     }
     &__links{
         display: block;
-        font-size: 20px;
+        // font-size: 20px;
         letter-spacing: 2px;
-        margin-bottom: 30px;
+        margin-bottom: 26px;
         font-family: $msref;
         
     }
@@ -88,8 +88,8 @@
         }
 
         &__links{
-            font-size: 25px; 
-            margin-bottom: 36px;
+            font-size: 20px; 
+            // margin-bottom: 36px;
             // letter-spacing: 4px;
         }
         
@@ -113,6 +113,11 @@
         &__close-button{
             font-size: 42px;
         }   
+        &__links{
+            font-size: 25px; 
+            margin-bottom: 32px;
+            // letter-spacing: 4px;
+        }
     } 
 }
 
@@ -136,7 +141,7 @@
         &__links{
             font-size: 32px;
             letter-spacing: 4px;
-            margin-bottom: 45px;
+            margin-bottom: 42px;
         }
              
 
