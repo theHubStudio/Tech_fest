@@ -1058,6 +1058,17 @@ fieldset {
   margin-bottom: 8px;
 }
 
+@media (min-width: 1200px) {
+  .schedule__title {
+    font-size: 30px;
+  }
+  .schedule__block {
+    margin-bottom: 20px;
+  }
+  .schedule__list li {
+    font-size: 18px;
+  }
+}
 .error {
   text-align: center;
   padding-top: 160px;
