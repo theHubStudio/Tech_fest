@@ -5,7 +5,6 @@
         text-align: center;
         margin-bottom: 20px;
     }
-
 }
 
 .form{
@@ -184,8 +183,10 @@
             display: flex;
         }
         &__submit{
+            height: 48px;
+            margin: 26px 0 0 50px;
             cursor: pointer;
-            margin: 0 auto;
+            // margin: 0 auto;
         }
     }
 
@@ -194,11 +195,10 @@
 
 @media (min-width: 1400px){
     .registration{
-        padding: 50px 0;
+        padding: 30px 0;
         &__title{
             margin-bottom: 56px;
         }
-       
     
     }
 
@@ -209,6 +209,12 @@
         &__item{
             width: 320px;
         }
+        &__submit{
+            height: 48px;
+            margin: 26px 0 0 62px;
+            cursor: pointer;
+            // margin: 0 auto;
+        }
        
         
     }
@@ -218,6 +224,5 @@
 @media (min-width: 1600px) {
     .registration{
         padding: 100px 0;
-         
     } 
 }
