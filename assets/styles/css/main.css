@@ -588,12 +588,6 @@ fieldset {
     padding: 21px 0;
   }
 }
-@media (min-width: 1400px) {
-  .head__link {
-    width: 320px;
-    padding: 30px 0;
-  }
-}
 .registration {
   padding: 34px 0;
 }
@@ -1051,6 +1045,19 @@ fieldset {
     font-size: 16px;
   }
 }
+.schedule {
+  padding: 34px 0;
+}
+.schedule__title {
+  margin-bottom: 10px;
+}
+.schedule__block {
+  margin-bottom: 20px;
+}
+.schedule__list li {
+  margin-bottom: 8px;
+}
+
 .error {
   text-align: center;
   padding-top: 160px;
