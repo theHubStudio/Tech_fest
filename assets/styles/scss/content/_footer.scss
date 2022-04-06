@@ -6,11 +6,11 @@
         margin-bottom: 17px;
     }
     &__title{
-        font-size: 20px;
+        font-size: 22px;
         margin-bottom: 16px;
     }
     &__icons{
-        font-size: 28px;
+        font-size: 25px;
         margin: 0 17px;
     }
     &__navigation-block{
@@ -37,7 +37,6 @@
 @media (min-width: 576px){
     .footer{
         &__title{
-            font-size: 20px;
             margin-bottom: 20px;
         }
         &__list{
@@ -51,16 +50,16 @@
         &__links,
         &__copyright{
             font-size: 12px;
-        }
-        
+        }   
     }
-
 }
-
 @media (min-width: 768px){
     .footer{
         &__logo{
             margin-bottom: 15px;
+        }
+        &__icons{
+            font-size: 25px;
         }
         &__links,
         &__copyright{
