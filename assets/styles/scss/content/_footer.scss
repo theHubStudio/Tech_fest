@@ -1,0 +1,32 @@
+.footer{
+    padding: 16px 0;
+    text-align: center;
+
+    &__social-network-block{
+        margin-bottom: 17px;
+    }
+    &__title{
+        font-size: 20px;
+        margin-bottom: 16px;
+    }
+    &__icons{
+        font-size: 28px;
+        margin: 0 17px;
+    }
+    &__navigation-block{
+        margin-bottom: 23px;
+    }
+    &__logo{
+        width: 87px;
+        height: 20px;
+    }
+
+    &__list{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__links{
+        font-size: 8px;
+    }
+
+}
