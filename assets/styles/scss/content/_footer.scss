@@ -6,11 +6,11 @@
         margin-bottom: 17px;
     }
     &__title{
-        font-size: 22px;
+        font-size: 14px;
         margin-bottom: 16px;
     }
     &__icons{
-        font-size: 25px;
+        font-size: 18px;
         margin: 0 17px;
     }
     &__navigation-block{
@@ -30,14 +30,16 @@
     &__copyright{
         font-size: 8px;
     }
-    
-
 }
 
 @media (min-width: 576px){
     .footer{
         &__title{
+            font-size: 18px;
             margin-bottom: 20px;
+        }
+        &__icons{
+            font-size: 22px;
         }
         &__list{
             justify-content: space-around;
@@ -65,16 +67,13 @@
         &__copyright{
             font-size: 14px;
         }
-        
-
     }
-
 }
 
 @media (min-width: 992px){
    .footer{
         &__title{
-            font-size: 25px;
+            font-size: 22px;
             margin-bottom: 20px;
         }
         &__logo{
@@ -84,12 +83,13 @@
         &__links{
             font-size: 16px;
         }
-
    }
 }
-
 @media (min-width: 1200px){
     .footer{
+        &__title{
+            font-size: 26px;
+        }
         &__logo{
             width: 220px;
             height: 45px;
@@ -99,7 +99,6 @@
         }
     }
 }
-
 @media (min-width: 1400px){
 
 }
