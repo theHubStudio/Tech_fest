@@ -1,29 +1,53 @@
 .schedule{
     padding: 34px 0;
-
-    &__title{
-        margin-bottom: 10px;
-    }
-    &__block{
+  
+    &__date-block{
         margin-bottom: 20px;
     }
+    &__list{
+        margin-top: 15px;
+
+    }
     &__list li{
-        margin-bottom: 8px;
+        margin-bottom: 12px;
     }
 
     
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 576px) {
+    
+}
+@media (min-width: 768px) {
     .schedule{
         &__title{
-            font-size: 30px;
+            font-size: 25px;
         }
-        &__block{
-            margin-bottom: 20px;
+        &__date-block{
+            margin-bottom: 40px;
+        }
+        &__list{
+            margin-top: 20px;
+    
+        }
+
+    }
+    
+}
+
+@media (min-width: 1200px) {
+    .schedule{
+        &__dates{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        &__date-block{
+            width: 480px;
         }
         &__list li{
             font-size: 18px;
+            margin-bottom: 16px;
         }
 
     }
